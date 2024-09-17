@@ -43,29 +43,26 @@ In this project I created an interactive ordering system for a food truck menu u
 
          menu_selection = input("Type menu number: ")
 
-<------ Check if the customer's input is a number -------->
+<------ Check if the customer's input is a number and Convert menu_selection to integer-------->
          if menu_selection.isdigit():
-< ------ Convert menu_selection to integer ------>
          menu_selection = int(menu_selection)`
 
+<---- This checks if the string contains only numeric characters (digits) and  returns True if the string consists only of digits, otherwise False. This condition ensures that the input from the user is a valid number, preventing errors if the user enters non-numeric characters (like "abc" or "1a2"). If the input string passes the isdigit() check, this line converts menu_selection from a string (e.g., "3") to an integer (3) using the int() function.
+Converting it to an integer allows you to perform mathematical operations, comparisons, or use it in contexts where an integer is expected. ----->
 
 
 
 
-This project was a challenge... <-----ADD MORE + ADDITIONAL CODE SNIPPET --------> 
 
 
 
-      
 
-I was experiencing a problem ... <-----ADD MORE --------> 
+This project was a challenge due to the learning curve with Python's syntax. But with the aid of W3 schools and ChatGPT anything that I was unfamiliar with I was able to gain understanding about through these sources. Thankfully I have experience with loops and iteration from the past so I was able to call on that knowledge in this project.
 
 
 
 ## Learning Points 
-
-
-I was happy with.... <-----ADD MORE -------> . Google, W3, MDN, and ChatGPT are still my best friends that I will always keep very close.
+I learned that Google, W3, MDN, Youtube and ChatGPT are my best friends that I will always keep very close. 
 
 
 ## Author Info
@@ -79,3 +76,5 @@ Location: Las Vegas, NV
 
 
 ## Credits 
+
+W3 Schools, chatgpt, MDN
